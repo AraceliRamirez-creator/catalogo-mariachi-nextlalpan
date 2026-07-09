@@ -90,6 +90,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "serenata-trio",
     nombre: "Serenata Inolvidable — Íntima en Trío (3 elementos)",
     categoria: "Serenatas",
+    imagen: "/productos/mariachi-serenata-trio.jpg",
     paraQuien:
       "Para quien busca una serenata más íntima y acústica, igual de emotiva, para una sorpresa cercana.",
     beneficio: "7 canciones en un formato acústico e íntimo, directo al corazón.",
@@ -102,6 +103,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "homenaje-despedida",
     nombre: "Paquete Homenaje y Despedida",
     categoria: "Homenajes y Funerales",
+    imagen: "/productos/mariachi-homenaje.jpg",
     paraQuien:
       "Para acompañar con música a la familia que despide a un ser querido, con el respeto que merece ese momento.",
     beneficio:
