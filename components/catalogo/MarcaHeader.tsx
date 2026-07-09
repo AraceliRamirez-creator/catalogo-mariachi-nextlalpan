@@ -23,7 +23,9 @@ export function MarcaHeader() {
       <p className="max-w-xl text-lg text-ink-soft">{marca.descripcion}</p>
 
       {marca.nota && (
-        <p className="max-w-xl text-sm font-bold text-red-600 underline">{marca.nota}</p>
+        <div className="max-w-xl whitespace-pre-line rounded-2xl border-2 border-red-300 bg-red-50 px-5 py-4 text-left text-sm font-semibold text-red-700">
+          {marca.nota}
+        </div>
       )}
 
       <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-ink-mute no-print">
