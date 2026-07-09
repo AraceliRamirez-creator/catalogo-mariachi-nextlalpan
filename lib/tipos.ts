@@ -36,6 +36,8 @@ export interface Marca {
   ciudad?: string;
   /** Liga de Instagram o web (opcional). */
   enlace?: string;
+  /** Aviso corto bajo la descripción (ej. condiciones de precio). Opcional. */
+  nota?: string;
 }
 
 /** Una promoción o bono activo (aplica a un producto). */

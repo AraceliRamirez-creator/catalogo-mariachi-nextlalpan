@@ -12,11 +12,12 @@ export const CONFIG: Config = {
     whatsappPrincipal: "525538384518",
     ciudad: "Nextlalpan",
     enlace: "https://www.facebook.com/share/1BUx3UhmDQ/",
+    nota: "Los precios pueden variar según la zona o distancia del evento.",
   },
   vendedores: [
     { slug: "tienda", nombre: "MARIACHI DE NEXTLALPAN ", whatsapp: "525538384518" },
   ],
   categorias: ["Bodas, XV años y Fiestas", "Reuniones y Eventos", "Serenatas", "Homenajes y Funerales"],
   mensajePlantilla:
-    "{saludo}vi tu catálogo y me interesa {producto}. ¿Me pueden dar más información y precio?",
+    "{saludo}vi tu catálogo y me interesa {producto}. Mi evento es el día [fecha] en [lugar], ¿me confirman la disponibilidad?",
 };
