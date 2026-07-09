@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { Icon } from "@/components/ui/Icon";
 
 /** Barra bajo el encabezado: compartir el catálogo y descargarlo en PDF. */
@@ -36,9 +35,6 @@ export function BarraAcciones() {
       <button onClick={() => window.print()} className="btn-ghost">
         <Icon name="lucide:download" size={18} /> Descargar en PDF
       </button>
-      <Link href="/configurar" className="btn-ghost">
-        <Icon name="lucide:settings-2" size={18} /> Es mío: configurarlo
-      </Link>
     </div>
   );
 }
