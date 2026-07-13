@@ -23,7 +23,7 @@ export const PRODUCTOS: Producto[] = [
     paraQuien:
       "Para quien celebra su boda, XV años, bautizo o gran fiesta en viernes, sábado o domingo y quiere mariachi completo sin preocuparse por el sonido.",
     beneficio:
-      "Una hora de mariachi completo con audio profesional incluido, para que se escuche perfecto en tu salón o jardín.",
+      "Una hora de mariachi con audio profesional incluido, para que se escuche perfecto en tu salón o jardín.",
     caracteristicas: [
       "6 músicos profesionales con traje de gala",
       "1 hora continua de servicio",
