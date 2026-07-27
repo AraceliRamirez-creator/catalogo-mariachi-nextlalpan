@@ -3,15 +3,19 @@ import "./globals.css";
 import { CONFIG } from "@/lib/config";
 import { estiloMarca, claseTema } from "@/lib/marca";
 
+const TITULO_GENERICO = "Mariachi para tu Evento · Nextlalpan y municipios vecinos";
+const DESCRIPCION_GENERICA =
+  "Servicio de mariachi para bodas, XV años, eventos escolares, eventos de gobierno, serenatas y homenajes en Nextlalpan, Zumpango, Jaltenco y Tonanitla. Disponibilidad garantizada.";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://catalogo-vivo-gilt.vercel.app"),
-  title: `${CONFIG.marca.negocio} · Catálogo`,
-  description: CONFIG.marca.descripcion,
+  title: TITULO_GENERICO,
+  description: DESCRIPCION_GENERICA,
   openGraph: {
-    title: `${CONFIG.marca.negocio} · Catálogo`,
-    description: CONFIG.marca.descripcion,
+    title: TITULO_GENERICO,
+    description: DESCRIPCION_GENERICA,
     type: "website",
-    images: [{ url: "/productos/vela.jpg", width: 1024, height: 1024, alt: CONFIG.marca.negocio }],
+    images: [{ url: "/productos/mariachi-1.jpg", width: 1024, height: 1024, alt: "Mariachi en un evento" }],
   },
 };
 
